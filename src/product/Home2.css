@@ -1,0 +1,9 @@
+.container-for-black-friday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Philosopher", sans-serif;
+}

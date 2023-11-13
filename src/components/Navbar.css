@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital,wght@0,400;1,300&family=Philosopher:ital@1&display=swap");
+
+body {
+  background-color: rgb(254, 212, 218) !important;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: rgb(84, 85, 86);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: rgb(249, 75, 104);
+  transition: 0.5s;
+}
+li {
+  cursor: pointer;
+  list-style-type: none;
+  color: rgb(121, 125, 128);
+  font-size: 24px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Philosopher", sans-serif;
+  margin-top: 13px;
+}
+li:hover {
+  color: rgb(245, 106, 130);
+  transition: 0.5s;
+}
+.container-for-navbar {
+  display: flex;
+  gap: 6%;
+  margin: 0;
+}
+.container-for-navbar:hover {
+  box-shadow: 10px 10px 15px 10px rgb(245, 129, 148);
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
