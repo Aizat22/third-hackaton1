@@ -1,3 +1,59 @@
 {
-  "products": []
+  "products": [
+    {
+      "title": "dgfhj",
+      "image": "https://flowerknows.co/cdn/shop/files/A203E8DD-8370-49D8-908D-AD142BBCF1E7-41237-00001DB3A97FD81C.jpg?v=1693306317&width=1500",
+      "category": "gfvhbjn",
+      "description": "sdgfhjk",
+      "price": 345678,
+      "": "11111",
+      "id": 1
+    },
+    {
+      "title": "",
+      "image": "",
+      "category": "",
+      "description": "",
+      "price": 0,
+      "": "5678",
+      "id": 5
+    },
+    {
+      "title": "",
+      "image": "",
+      "category": "",
+      "description": "",
+      "price": 0,
+      "": "678",
+      "id": 6
+    },
+    {
+      "title": "",
+      "image": "",
+      "category": "",
+      "description": "",
+      "price": 0,
+      "": "https://flowerknows.co/cdn/shop/files/8cd2f7c754599221201d5e7b65130a55.jpg?v=1693217363&width=1500",
+      "id": 7
+    },
+    {
+      "title": "",
+      "image": "",
+      "category": "",
+      "description": "",
+      "price": 0,
+      "": "22222",
+      "id": 8
+    },
+    {
+      "title": "",
+      "image": "",
+      "category": "",
+      "description": "",
+      "price": 0,
+      "": "22222",
+      "id": 9
+    }
+  ],
+  "categories": []
 }
