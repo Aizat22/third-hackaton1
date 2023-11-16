@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./AddProduct.css";
 import { Box, TextField,Typography,Button } from "@mui/material";
 import { useProducts } from "../../contexts/ProductContextProvider";
-import CategorySelect from './CategorySelect';
 
 
 const AddProduct = () => {
@@ -14,6 +13,7 @@ const AddProduct = () => {
     description: '',
     price: 0,
   });
+console.log(product);
 
   useEffect(() => {
     getCategories();
@@ -22,10 +22,11 @@ const AddProduct = () => {
 
   const handleInput = (e) => {
     if (e.target.name === 'price') {
-      setProduct({ ...product, [e.target.name]: Number(e.target.value) })  
+      const obj = { ...product, [e.target.name]: Number(e.target.value) } 
+      setProduct(obj)
     } else {
-      setProduct({ ...product, [e.target.name]: e.target.value });
-      
+      const obj = { ...product, [e.target.name]: e.target.value };
+      setProduct(obj)
     }
   };
   return (
@@ -33,16 +34,46 @@ const AddProduct = () => {
       <h2>Add New Product</h2>
       <div className="container-for-form">
         <label>title</label>
-        <input type="text"  variant='outlined' onChange={handleInput} placeholder="enter the title of product" />
-        <label htmlFor="">image</label>
-        <input type="url"  variant='outlined'  onChange={handleInput} placeholder="enter the url of product" />
-        <label htmlFor="">category</label>
-        <input type="text" variant='outlined'  handleInput={handleInput} categories={categories} placeholder="enter the category of product" />
-         {/* <CategorySelect handleInput={handleInput} categories={categories} /> */}
-        <label htmlFor="">description</label>
-        <input type="text"  variant='outlined'  onChange={handleInput}placeholder="enter the description of product" />
-        <label htmlFor="">price</label>
-        <input type="number" variant='outlined'  onChange={handleInput} placeholder="enter the price of product" />
+        <TextField
+        onChange={handleInput}
+        fullWidth
+        name="title"
+        label="Title"
+        variant="outlined"
+      /> 
+       <label htmlFor="">image</label>
+        <TextField
+        onChange={handleInput}
+        fullWidth
+        name="image"
+        label="Image URL"
+        variant="outlined"
+      /> 
+      <label htmlFor="">category</label>
+      <TextField
+        onChange={handleInput}
+        fullWidth
+        name="category"
+        label="Category"
+        variant="outlined"
+      /> 
+      <label htmlFor="">description</label>
+      <TextField
+        onChange={handleInput}
+        fullWidth
+        name="description"
+        label="Description"
+        variant="outlined"
+      /> 
+      <label htmlFor="">price</label>
+      <TextField
+        onChange={handleInput}
+        fullWidth
+        name="price"
+        label="Price"
+        variant="outlined"
+      /> 
+        
         <div className="container-for-btn">
           <button onClick={()=> addProduct(product)} fullWidth variant='outlined'>ADD</button>
         </div>

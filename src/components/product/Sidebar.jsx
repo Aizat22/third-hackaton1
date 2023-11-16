@@ -49,6 +49,42 @@ const Sidebar = () => {
               label={item.name}
             />
           ))}
+          <FormControlLabel value={'face'} control={<Radio />} label={'Face'} />
+          {categories.map((item) => (
+            <FormControlLabel
+              key={item.id}
+              value={item.name}
+              control={<Radio />}
+              label={item.name}
+            />
+          ))}
+          <FormControlLabel value={'eyes'} control={<Radio />} label={'Eyes'} />
+          {categories.map((item) => (
+            <FormControlLabel
+              key={item.id}
+              value={item.name}
+              control={<Radio />}
+              label={item.name}
+            />
+          ))}
+          <FormControlLabel value={'lips'} control={<Radio />} label={'Lips'} />
+          {categories.map((item) => (
+            <FormControlLabel
+              key={item.id}
+              value={item.name}
+              control={<Radio />}
+              label={item.name}
+            />
+          ))}
+          <FormControlLabel value={'accessories'} control={<Radio />} label={'Accessories'} />
+          {categories.map((item) => (
+            <FormControlLabel
+              key={item.id}
+              value={item.name}
+              control={<Radio />}
+              label={item.name}
+            />
+          ))}
         </RadioGroup>
       </FormControl>
     </Paper>

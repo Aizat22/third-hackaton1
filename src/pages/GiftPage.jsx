@@ -1,7 +1,10 @@
 import React from "react";
+import AddGift from "../components/product/AddGift";
 
 const GiftPage = () => {
-  return <div>GiftPage</div>;
+  return <div>
+    <AddGift/>
+  </div>;
 };
 
 export default GiftPage;

@@ -85,18 +85,18 @@ const pages = [
         <Link className="link" to={"/admin"}>
           <li>admin</li>
         </Link>
-        <Typography sx={{ color: 'white' }}>
-            {email ? `Hello, ${email}` : 'Hello, Guest'}
+        <Typography sx={{ color: 'grey' }}>
+            {email ? `Hello, ${email}` : 'Hello, Mademoiselle'}
       </Typography>
       <Link to={'/cart'}>
             <Badge badgeContent={badgeCount} color="success">
-              <ShoppingCartIcon sx={{ color: 'white' }} />
+              <ShoppingCartIcon sx={{ color: 'grey' }} />
             </Badge>
           </Link>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" />
               </IconButton>
             </Tooltip>
             <Menu

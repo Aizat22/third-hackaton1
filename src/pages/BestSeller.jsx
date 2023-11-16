@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import AddBestSeller from '../components/product/AddBestSeller'
 
 const BestSeller = () => {
-  return <div>BestSeller</div>;
-};
+  return (
+    <div>
+      <AddBestSeller/>
+    </div>
+  )
+}
 
-export default BestSeller;
+export default BestSeller

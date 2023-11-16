@@ -1,58 +1,40 @@
 {
   "products": [
     {
-      "title": "dgfhj",
+      "title": "eyes",
       "image": "https://flowerknows.co/cdn/shop/files/A203E8DD-8370-49D8-908D-AD142BBCF1E7-41237-00001DB3A97FD81C.jpg?v=1693306317&width=1500",
-      "category": "gfvhbjn",
+      "category": "eyes",
       "description": "sdgfhjk",
       "price": 345678,
       "": "11111",
       "id": 1
     },
     {
-      "title": "",
-      "image": "",
-      "category": "",
-      "description": "",
-      "price": 0,
-      "": "5678",
-      "id": 5
-    },
-    {
-      "title": "",
-      "image": "",
-      "category": "",
-      "description": "",
-      "price": 0,
-      "": "678",
-      "id": 6
-    },
-    {
-      "title": "",
-      "image": "",
-      "category": "",
-      "description": "",
-      "price": 0,
-      "": "https://flowerknows.co/cdn/shop/files/8cd2f7c754599221201d5e7b65130a55.jpg?v=1693217363&width=1500",
-      "id": 7
-    },
-    {
-      "title": "",
-      "image": "",
-      "category": "",
-      "description": "",
-      "price": 0,
-      "": "22222",
+      "title": "gfhgjk",
+      "image": "https://flowerknows.co/cdn/shop/files/swan-ballet-embossed-blush-image-1.jpg?v=1692946155&width=750",
+      "category": "sdfghj",
+      "description": "xvnbhmn",
+      "price": 55666,
+      "": "https://flowerknows.co/cdn/shop/files/swan-ballet-embossed-blush-image-1.jpg?v=1692946155&width=750",
       "id": 8
     },
     {
-      "title": "",
-      "image": "",
-      "category": "",
-      "description": "",
-      "price": 0,
-      "": "22222",
-      "id": 9
+      "title": "Accessories",
+      "image": "https://flowerknows.co/cdn/shop/products/000878ce6144c05ffac949f66b05a18b.jpg?v=1683707033&width=750",
+      "category": "Accesories",
+      "description": "bcvghj",
+      "price": 66666,
+      "": "https://flowerknows.co/cdn/shop/products/000878ce6144c05ffac949f66b05a18b.jpg?v=1683707033&width=750",
+      "id": 11
+    },
+    {
+      "title": "drfgku",
+      "image": "https://flowerknows.co/cdn/shop/products/a362ebbebc4e6c8da1535adf0e645f40_8a14ad97-d2f8-4aa8-94c9-996f55029e22.jpg?v=1683709832&width=750",
+      "category": "fdgfhgjk",
+      "description": "fgh",
+      "price": 7770,
+      "": "677",
+      "id": 12
     }
   ],
   "categories": []

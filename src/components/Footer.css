@@ -12,6 +12,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  display: flex;
 }
 .Footer-h1 a {
   text-decoration: none;

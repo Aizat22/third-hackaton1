@@ -5,6 +5,7 @@ import "./Home2.css";
 function Home2() {
   return (
     <>
+    
       <div className="container-for-black-friday">
         <h1>Black Friday Offer - Coming Soon</h1>
         <h3>2023.11.15 - 2023.11.30 PST</h3>

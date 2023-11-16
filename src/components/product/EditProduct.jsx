@@ -13,6 +13,7 @@ const EditProduct = () => {
     description: "",
     price: 0,
   });
+  console.log(product);
   const { id } = useParams();
 
 
@@ -49,10 +50,13 @@ const EditProduct = () => {
           justifyContent: "space-between",
         }}
       >
-        <Typography variant="h4" align="center">
+        <Typography variant="h4" align="center"sx={{fontFamily: "Dancing Script",
+  fontFamily: "Josefin Sans sans-serif",
+  fontFamily: "Philosopher sans-serif"}} >
           EDIT PRODUCT
         </Typography>
         <TextField
+        
           value={product.title}
           onChange={handleInput}
           fullWidth
@@ -61,6 +65,9 @@ const EditProduct = () => {
           variant="outlined"
         />
         <TextField 
+          sx={{fontFamily: "Dancing Script",
+          fontFamily: "Josefin Sans sans-serif",
+          fontFamily: "Philosopher sans-serif"}}
         value={product.image} 
         onChange={handleInput} 
         fullWidth name='image' 
@@ -68,6 +75,9 @@ const EditProduct = () => {
         variant="outlined" />
 
         <TextField
+         sx={{fontFamily: "Dancing Script",
+         fontFamily: "Josefin Sans sans-serif",
+         fontFamily: "Philosopher sans-serif"}}
           value={product.category}
           onChange={handleInput}
           fullWidth
@@ -76,6 +86,9 @@ const EditProduct = () => {
           variant="outlined"
         />
         <TextField
+         sx={{fontFamily: "Dancing Script",
+         fontFamily: "Josefin Sans sans-serif",
+         fontFamily: "Philosopher sans-serif"}}
           value={product.description}
           onChange={handleInput}
           fullWidth
@@ -84,6 +97,9 @@ const EditProduct = () => {
           variant="outlined"
         />
         <TextField
+         sx={{fontFamily: "Dancing Script",
+         fontFamily: "Josefin Sans sans-serif",
+         fontFamily: "Philosopher sans-serif"}}
           value={product.price}
           onChange={handleInput}
           fullWidth
@@ -93,6 +109,9 @@ const EditProduct = () => {
           variant="outlined"
         />
         <Button
+        sx={{fontFamily: "Dancing Script",
+        fontFamily: "Josefin Sans sans-serif",
+        fontFamily: "Philosopher sans-serif"}}
           onClick={() => saveChanges(id, product)}
           fullWidth
           variant="outlined"

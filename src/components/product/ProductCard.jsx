@@ -14,7 +14,7 @@ import { CardActionArea, Rating, Stack } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { useAuth } from '../../contexts/AuthContextProvider';
 import { ADMIN } from '../../helpers/consts';
-import { Details } from '@mui/icons-material';
+import Detail from './Detail';
 
 
 const theme = createTheme({
@@ -111,7 +111,7 @@ export default function ProductCard({item}) {
         )}
       </CardActions>
 
-       <Details
+       <Detail
        id={item.id}
        item={item}
        category={item.category}

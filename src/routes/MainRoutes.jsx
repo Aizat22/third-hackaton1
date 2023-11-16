@@ -20,10 +20,10 @@ const PUBLIC_ROUTES = [
   { id: 5, link: "/best", element: <BestSeller /> },
   { id: 6, link: "/gift", element: <GiftPage /> },
   { id: 7, link: "/auth", element: <AuthPage /> },
-  { id: 8, link: '/admin', element: <AdminPage /> },
   
 ];
 const PRIVATE_ROUTES = [
+  { id: 8, link: '/admin', element: <AdminPage /> },
   { id: 9, link: '/edit/:id', element: <EditPage /> },
 ];
 
