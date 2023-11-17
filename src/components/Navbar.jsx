@@ -19,6 +19,7 @@ import { Badge } from '@mui/material';
 import { useCart } from '../contexts/CartContextProvider';
 import { useAuth } from '../contexts/AuthContextProvider';
 import { ADMIN } from '../helpers/consts';
+import Favorites from "./product/Favorites";
 
 
 const pages = [
@@ -85,6 +86,7 @@ const pages = [
         <Link className="link" to={"/admin"}>
           <li>admin</li>
         </Link>
+        <Favorites/>
         <Typography sx={{ color: 'grey' }}>
             {email ? `Hello, ${email}` : 'Hello, Mademoiselle'}
       </Typography>

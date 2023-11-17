@@ -1,7 +1,6 @@
 import React from "react";
 import ProductList from '../components/product/ProductList';
 import Sidebar from "../components/product/Sidebar";
-import CategorySelect from "../components/product/CategorySelect";
 
 const ProductPage = () => {
   return <div style={{display: 'flex', justifyContent: 'space-between'}}>

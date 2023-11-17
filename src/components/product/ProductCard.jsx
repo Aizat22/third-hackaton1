@@ -15,6 +15,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { useAuth } from '../../contexts/AuthContextProvider';
 import { ADMIN } from '../../helpers/consts';
 import Detail from './Detail';
+import Favorites from './Favorites';
 
 
 const theme = createTheme({
@@ -109,6 +110,7 @@ export default function ProductCard({item}) {
       <AddShoppingCartIcon />
         </IconButton>
         )}
+        <Favorites/>
       </CardActions>
 
        <Detail

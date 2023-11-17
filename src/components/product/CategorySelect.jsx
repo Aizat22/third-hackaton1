@@ -26,7 +26,7 @@ export default function CategorySelect(props) {
           defaultValue={''}
         >
           {categories.map((item) => (
-            <MenuItem key={item.id} value={item.name}>
+            <MenuItem key={item.id} value={item.name} onChange={handleChange}>
               {item.name}
             </MenuItem>
           ))}
